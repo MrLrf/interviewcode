@@ -1,15 +1,18 @@
+/*
 package sort;
 
 import org.junit.Test;
 
 import java.util.Arrays;
 
+*/
 /**
  * 类的描述
  *
  * @Author lirf
  * @Date 2018/3/30 14:52
- */
+ *//*
+
 public class SortTest {
 
     private int[] array = {6, 5, 3, 1, 8, 7, 2, 4, 9, 22, 10, 8, 26};
@@ -39,3 +42,4 @@ public class SortTest {
         Arrays.sort();
     }
 }
+*/
