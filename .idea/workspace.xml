@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74418843-cfd1-4e35-9f92-8178100a29f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/niuke/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/niuke/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/niuke/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/SnowFlake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="SortTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="638">
               <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="35" />
+              <caret line="12" column="35" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -75,15 +73,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SnowFlake.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/SnowFlake.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2200">
+              <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+              <folding>
+                <element signature="e#2644#2645#0" expanded="true" />
+                <element signature="e#2693#2694#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,7 +101,7 @@
       <file leaf-file-name="LRUCacheTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LRUCacheTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="286">
               <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/main/java/niuke/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/niuke/Main2.java" />
         <option value="$PROJECT_DIR$/src/main/java/niuke/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/SnowFlake.java" />
       </list>
     </option>
   </component>
@@ -188,6 +198,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,28 +232,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="niuke" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interviewcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interviewcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interviewcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interviewcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.SnowFlake">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -297,6 +294,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="SnowFlake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.SnowFlake" />
+      <module name="javainterview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -307,23 +315,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LRUCacheTest" />
       <option name="METHOD_NAME" value="testLRU" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SortTest.testHeapSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javainterview" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortTest" />
-      <option name="METHOD_NAME" value="testHeapSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -391,18 +382,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SortTest.testQuickSort" />
-      <item itemvalue="JUnit.SortTest.testHeapSort" />
       <item itemvalue="JUnit.LRUCacheTest.testLRU" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.SnowFlake" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SnowFlake" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.LRUCacheTest.testLRU" />
         <item itemvalue="JUnit.SortTest.testQuickSort" />
-        <item itemvalue="JUnit.SortTest.testHeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +412,8 @@
       <workItem from="1531108877721" duration="1636000" />
       <workItem from="1533016766288" duration="9524000" />
       <workItem from="1533268868684" duration="20000" />
-      <workItem from="1533725845390" duration="2339000" />
+      <workItem from="1533725845390" duration="2447000" />
+      <workItem from="1533795496431" duration="629000" />
     </task>
     <servers />
   </component>
@@ -458,7 +450,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58909000" />
+    <option name="totallyTimeSpent" value="59646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -474,11 +466,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34912717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34912717" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -522,16 +514,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/LRUCacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -727,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="638">
           <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -752,7 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LRUCacheTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="286">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -770,7 +752,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="35" />
+          <caret line="12" column="35" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -784,11 +766,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/SnowFlake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+          <folding>
+            <element signature="e#2644#2645#0" expanded="true" />
+            <element signature="e#2693#2694#0" expanded="true" />
           </folding>
         </state>
       </provider>
